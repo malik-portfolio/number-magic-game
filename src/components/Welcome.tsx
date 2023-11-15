@@ -6,10 +6,10 @@ export default function Welcome({ gameStart }: { gameStart: Function }) {
         <span className="block text-red-500">Number Magic Game</span>
       </h2>
       {/* Game Rules */}
-      <div>
+      <div className="text-xl text-neutral-100">
         <p className="text-2xl mb-4">Rules:</p>
         <ol className="list-decimal space-y-4 pl-4">
-          <li>Think any number from 1 to 127</li>
+          <li>Think any number from 1 to 100</li>
           <li>
             When game started, few slides are shown one by one which include
             numbers. If your number is available in the slide, click yes button,

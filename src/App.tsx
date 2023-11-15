@@ -25,7 +25,6 @@ export default function App() {
 
   function addToGuessNumber(num: number) {
     setGuessNumber((prevGuessNumber) => prevGuessNumber + num);
-    console.log(guessNumber);
   }
 
   function resetGame() {

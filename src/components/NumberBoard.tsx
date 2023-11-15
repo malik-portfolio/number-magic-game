@@ -51,7 +51,7 @@ export default function NumberBoard({
         {numberArray.map((number) => (
           <li
             id="number-magic-game__number"
-            className="bg-neutral-300 text-neutral-900 inline-flex justify-center items-center w-12 aspect-square text-2xl p-2 rounded-lg font-bold animate-flip-up animate-once animate-duration-[2000ms] animate-delay-[250ms]"
+            className="bg-neutral-300 text-neutral-900 inline-flex justify-center items-center w-12 aspect-square text-2xl p-2 rounded-lg font-bold animate-flip-up animate-once animate-duration-[1000ms] animate-delay-[250ms]"
             key={Math.random()}>
             {number}
           </li>
